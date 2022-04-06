@@ -16,7 +16,9 @@ If you choose any of first three options, Unity Sweeper will run a search throug
 
 ![Sweep window](Images/02.png)
 
-...from where you can review the unused assets found, uncheck assets which you want to keep in your project, and select the assets you want to exclude from your project. Unity Sweeper will also remove empty directories. Clicking the _Exclude from Project_ button will create a Unity Package with current the datetime and export the package to the location of `PROJECT_ROOT/BackupUnusedAssets`.
+...from where you can review the unused assets found, uncheck assets which you want to keep in your project, and select the assets you want to exclude from your project. Unity Sweeper will also remove empty directories. 
+
+Clicking the _Exclude from Project_ button will create a Unity Package with current the datetime and export the package to the location of `PROJECT_ROOT/BackupUnusedAssets`.
 
 ![Final result](Images/03.png)
 
