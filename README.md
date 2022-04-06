@@ -2,7 +2,7 @@
 
 This plugin helps you sweep up your project - it detects unused files, removes them from the project, and creates a backup of the removed assets exported as a unity package.
 
-Using the tool is really simple. You can initiate deleting unused files trough `Window` menu.
+Using the tool is really simple. You can initiate deleting unused files through `Window` menu.
 
 ![Window menu choices](Images/01.png)
 
