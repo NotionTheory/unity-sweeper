@@ -11,8 +11,8 @@ namespace UnitySweeper
     {
         public const string EXPORT_XMP_PATH = "referencemap.xml";
 
-        public readonly List<string> deleteFileList = new();
-        private List<CollectionData> referenceCollection = new();
+        public readonly List<string> deleteFileList = new List<string>();
+        private List<CollectionData> referenceCollection = new List<CollectionData>();
 
         public bool useCodeStrip = true;
         public bool saveEditorExtensions = true;
