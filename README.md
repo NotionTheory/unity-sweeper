@@ -1,4 +1,10 @@
-﻿# Unity Sweeper
+﻿# Installation
+
+Copy the folder "UnitySweeper/Editor" of this project into the "plugins" folder, under the assets folder of your Unity project.
+
+The path should look like this: "Assets/Plugins/UnitySweeper/Editor".
+
+# Unity Sweeper
 
 This plugin helps you sweep up your project - it detects unused files, removes them from the project, and creates a backup of the removed assets exported as a unity package.
 
