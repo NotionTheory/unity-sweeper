@@ -18,6 +18,10 @@ Options are:
 * _Unused by Game_ - Will sweep everything used by game, including scripts
 * _Clear cache_ - Deletes cache files
 
+> [!NOTE]
+> If you choose _Unused by Game_, it will also remove this plugin itself by default.<br>
+> You can click the button _Exclude plugins_ in the next window to prevent this behaviour.
+
 If you choose any of first three options, Unity Sweeper will run a search through your project, after which it will show a screen like this:
 
 ![Sweep window](Images/02.png)
