@@ -112,6 +112,27 @@ namespace UnitySweeper
                 }
             }
 
+            if (GUILayout.Button("Exclude Plugins", GUILayout.MaxWidth(100)))
+            {
+                foreach (var asset in deleteAssets)
+                {
+                    if (string.IsNullOrEmpty(asset.path))
+                    {
+                        continue;
+                    }
+
+                    if (!CheckSearch(asset.path, searchTerm))
+                    {
+                        continue;
+                    }
+
+                    if (asset.path.StartsWith("Assets/Plugins"))
+                    {
+                        asset.isDelete = false;
+                    }
+                }
+            }
+
             EditorGUILayout.EndHorizontal();
 
             using (var scrollScope = new EditorGUILayout.ScrollViewScope(scroll))
